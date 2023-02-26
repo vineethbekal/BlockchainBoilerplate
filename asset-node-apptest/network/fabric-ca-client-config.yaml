@@ -1,0 +1,36 @@
+version: 1.0.0
+
+client:
+  organization: Org1
+  logging:
+    level: info
+  cryptoconfig:
+    path: /path/to/crypto-config
+  tls:
+    enabled: true
+    certfiles:
+      - /path/to/ca-cert.pem
+
+certificates:
+  ca:
+    url: https://<CA_HOST>:<CA_PORT>
+    tlsCACerts:
+      path: /path/to/ca-cert.pem
+    registrar:
+      - enrollId: admin
+        enrollSecret: adminpw
+      - enrollId: registrar
+        enrollSecret: registrarpw
+
+    caName: ca-org1
+    tlsCertFile: /path/to/ca-cert.pem
+    tlsKeyFile: /path/to/ca-key.pem
+
+  tlsCACerts:
+    path: /path/to/tls-ca-cert.pem
+
+  tlsClientCert:
+    path: /path/to/client-cert.pem
+
+  tlsClientKey:
+    path: /path/to/client-key.pem
