@@ -1,23 +1,34 @@
 # BlockchainBoilerplate
-BlockchainBroilerplate code
-
-Hyperledger Smart Contract Boilerplate
-This is a boilerplate code for creating a Hyperledger smart contract using Node.js and Express. It contains the following file structure:
-
-
-|-- app.js
-|-- controllers
-|   `-- ledger.controller.js
-|-- models
-|   |-- config.js
-|   |-- ledger.model.js
-|   `-- wallet.model.js
-|-- network
-|   |-- connection.json
-|   `-- fabric-ca-client-config.yaml
-|-- package.json
-`-- routes
-    `-- ledger.routes.js
+<h1>README</h1>
+<p>Broilerplate code for the following smart contract using Hyperledger platform using Node.js and Express.</p>
+<h3>File Structure</h3>
+<ul>
+    <li>app.js</li>
+    <li>controllers
+        <ul>
+            <li>ledger.controller.js</li>
+        </ul>
+    </li>
+    <li>models
+        <ul>
+            <li>config.js</li>
+            <li>ledger.model.js</li>
+            <li>wallet.model.js</li>
+        </ul>
+    </li>
+    <li>network
+        <ul>
+            <li>connection.json</li>
+            <li>fabric-ca-client-config.yaml</li>
+        </ul>
+    </li>
+    <li>package.json</li>
+    <li>routes
+        <ul>
+            <li>ledger.routes.js</li>
+        </ul>
+    </li>
+</ul>
     
 Getting Started
 To get started with this boilerplate code, follow these steps:
