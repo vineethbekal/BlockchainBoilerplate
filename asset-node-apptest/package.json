@@ -11,10 +11,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "express": "^4.18.2",
+      "express": "^4.21.2",
       "expressjs": "^1.0.1",
-      "fabric-ca-client": "^2.2.16",
-      "fabric-network": "^2.2.16"
+      "fabric-ca-client": "^2.2.20",
+      "fabric-network": "^2.2.20"
     }
   }
   
